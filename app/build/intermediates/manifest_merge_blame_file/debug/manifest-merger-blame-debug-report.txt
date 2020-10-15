@@ -27,43 +27,42 @@
 18-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:10:9-54
 19        android:supportsRtl="true"
 19-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:11:9-35
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:12:9-40
-22        <activity android:name="com.javadsh98.multimoduleplayground.MainActivity" >
-22-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:15:17-69
-24-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:17:17-77
-26-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29
-30        <service
-30-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-31            android:name="androidx.room.MultiInstanceInvalidationService"
-31-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-32            android:directBootAware="true"
-32-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-33            android:exported="false" />
-33-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-34
-35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-37            android:authorities="com.javadsh98.multimoduleplayground.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-40    </application>
-41
-42</manifest>
+20        android:theme="@style/AppTheme" >
+20-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity android:name="com.javadsh98.multimoduleplayground.MainActivity" >
+21-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:13:9-19:20
+21-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:15:17-69
+23-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:17:17-77
+25-->C:\WorkStation\MultimodulePlayground\app\src\main\AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <service
+29-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+30            android:name="androidx.room.MultiInstanceInvalidationService"
+30-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+31            android:directBootAware="true"
+31-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+32            android:exported="false" />
+32-->[androidx.room:room-runtime:2.2.5] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\bfca20c7e253d195c5f2c3553a5b7507\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+36            android:authorities="com.javadsh98.multimoduleplayground.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Muhammad Javad\.gradle\caches\transforms-2\files-2.1\5fe628ae525cadb1bdd38f7f42d2b2af\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+39    </application>
+40
+41</manifest>

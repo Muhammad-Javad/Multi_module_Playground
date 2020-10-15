@@ -7,12 +7,12 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
 @Dao
-interface JavadDao {
+interface UserDao {
 
-    @Query("select * from Javad")
-    fun getjavad(): LiveData<List<Javad>>
+    @Query("select * from User")
+    fun getUsers(): LiveData<List<User>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insert(javad: Javad)
+    fun insert(User: User)
 
 }
