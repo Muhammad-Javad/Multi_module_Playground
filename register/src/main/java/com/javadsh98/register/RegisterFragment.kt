@@ -18,6 +18,7 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
 
     val db by inject<UserDataBase>()
     val dao by inject<UserDao>()
+    var user: User? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -29,14 +30,16 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
                 && !textinputedittext_email.text.isNullOrEmpty()
                 && !textinputedittext_password.text.isNullOrEmpty()){
                 db.runInTransaction {
-                    dao.insert(User(0
+                    user = User(0
                         , textinputedittext_username.text.toString()
                         , textinputedittext_firstname.text.toString()
                         , textinputedittext_lastname.text.toString()
                         , textinputedittext_lastname.text.toString()
                         , textinputedittext_email.text.toString()
                         , )
-                    )
+                    user?.let {
+                        dao.insert(it)
+                    }
                 }
                 val action = "main".toUri()
                 findNavController().navigate(action)

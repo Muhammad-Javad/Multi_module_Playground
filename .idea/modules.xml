@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Multi_module_Playground.iml" filepath="$PROJECT_DIR$/.idea/modules/Multi_module_Playground.iml" group="Multi_module_Playground" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Multi module Playground/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/database/database.iml" filepath="$PROJECT_DIR$/.idea/modules/database/database.iml" group="Multi module Playground/database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login/login.iml" filepath="$PROJECT_DIR$/.idea/modules/login/login.iml" group="Multi module Playground/login" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/register/register.iml" filepath="$PROJECT_DIR$/.idea/modules/register/register.iml" group="Multi module Playground/register" />
     </modules>
   </component>
