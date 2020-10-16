@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/nav_login">
+
+
+    <include app:graph="@navigation/nav_login" />
+    <include app:graph="@navigation/nav_register" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.javadsh98.multimoduleplayground.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <deepLink
+            android:id="@+id/deepLink2"
+            app:uri="mains://main" />
+    </fragment>
+
+</navigation>

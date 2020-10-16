@@ -41,13 +41,13 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
                         dao.insert(it)
                     }
                 }
-                val action = "main".toUri()
+                val action = "mains://main".toUri()
                 findNavController().navigate(action)
             }
         }
 
         button_login.setOnClickListener {
-            val action = "login".toUri()
+            val action = "logins://login".toUri()
             findNavController().navigate(action)
         }
 

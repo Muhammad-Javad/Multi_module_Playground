@@ -8,6 +8,7 @@ val dbModule = module {
 
     single {
         Room.databaseBuilder(androidContext(), UserDataBase::class.java, "javad database")
+            .fallbackToDestructiveMigration()
             .allowMainThreadQueries()
             .build()
     }

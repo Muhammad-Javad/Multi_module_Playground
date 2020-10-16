@@ -12,6 +12,6 @@
         tools:layout="@layout/fragment_register">
         <deepLink
             android:id="@+id/deepLink"
-            app:uri="register" />
+            app:uri="registers://register" />
     </fragment>
 </navigation>

@@ -15,4 +15,7 @@ interface UserDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(User: User)
 
+    @Query("select * from  User where username like :username and password like :password")
+    fun hasThisUser(username: String, password: String): LiveData<User>
+
 }
