@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.lifecycle.Observer
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.javadsh98.module1.UserDao
 import com.javadsh98.module1.UserDataBase
@@ -30,7 +31,10 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     , textinputedittext_password.text.toString()).observe(viewLifecycleOwner, Observer {
                     it?.let {
                         val action = "mains://main".toUri()
-                        findNavController().navigate(action)
+                        findNavController().navigate(action,
+                        NavOptions.Builder()
+                            .setPopUpTo(R.id.loginFragment, true)
+                            .build())
                     }
                 })
 

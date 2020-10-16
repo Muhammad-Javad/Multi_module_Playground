@@ -6,36 +6,16 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cdcd9a9-d487-4da3-8e03-719d6afb0939" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/javadsh98/multimoduleplayground/HomeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_main.xml" afterDir="false" />
+    <list default="true" id="4cdcd9a9-d487-4da3-8e03-719d6afb0939" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/javadsh98/multimoduleplayground/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/javadsh98/multimoduleplayground/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/DatabaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/DatabaseModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/UserDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/UserDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/UserDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/database/src/main/java/com/javadsh98/module1/UserDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/login/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/src/main/java/com/javadsh98/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/java/com/javadsh98/login/LoginFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/src/main/res/navigation/nav_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/login/src/main/res/navigation/nav_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register/src/main/java/com/javadsh98/register/RegisterFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/register/src/main/java/com/javadsh98/register/RegisterFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/src/main/res/navigation/nav_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/register/src/main/res/navigation/nav_register.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602845045858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Login and register without bug">
+      <created>1602863201965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602863201965</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +197,8 @@
     <MESSAGE value="add register module" />
     <MESSAGE value="setup register Ui ." />
     <MESSAGE value="setup login Ui and logic ." />
-    <option name="LAST_COMMIT_MESSAGE" value="setup login Ui and logic ." />
+    <MESSAGE value="add Login and register without bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Login and register without bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="168" y="183" key="#PSD" timestamp="1602794572352">
@@ -231,11 +219,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="139" key="AndroidCreateResourceFileDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1602846430717" />
-    <state x="1676" y="0" key="CommitChangelistDialog2" timestamp="1602863011524">
+    <state x="1676" y="0" key="CommitChangelistDialog2" timestamp="1602863200429">
       <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="331" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1602845044450" />
-    <state x="1676" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1602863011524" />
+    <state x="1676" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1602863200429" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1602858971783">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -281,10 +269,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="445" y="216" key="git4idea.ui.GitUnstashDialog/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1602681992679" />
-    <state x="339" y="172" key="run.anything.popup" timestamp="1602844943384">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1684" y="229" key="run.anything.popup" timestamp="1602864842681">
+      <screen x="1366" y="0" width="1280" height="1024" />
     </state>
     <state x="339" y="172" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@0.0.1366.768" timestamp="1602844943384" />
+    <state x="1684" y="229" key="run.anything.popup/0.0.1366.768/1366.0.1280.1024@1366.0.1280.1024" timestamp="1602864842681" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602679695698">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

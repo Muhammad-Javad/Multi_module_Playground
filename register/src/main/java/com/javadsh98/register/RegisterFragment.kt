@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.net.toUri
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.findNavController
 import com.javadsh98.module1.User
 import com.javadsh98.module1.UserDao
@@ -42,7 +43,12 @@ class RegisterFragment : Fragment(R.layout.fragment_register) {
                     }
                 }
                 val action = "mains://main".toUri()
-                findNavController().navigate(action)
+                findNavController()
+                    .navigate(action
+                        , NavOptions.Builder()
+                            .setPopUpTo(R.id.registerFragment, true)
+                            .build()
+                    )
             }
         }
 
